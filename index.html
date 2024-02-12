@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BINGO GAME</title>
+    <link rel="stylesheet" href="style.css" >
+</head>
+<body>
+    <main><div class="title moved"><strong >BINGO</strong></div>
+    <form class="Principal_Container hidden">
+        <label class="jugadores">
+            <h4> NOMBRE DE JUGADORES: </h4>
+            <input type="text" id="user1" placeholder="Usuario 1">
+            <input type="text" id="user2" placeholder="Usuario 2">
+            <input type="text" id="user3" placeholder="Usuario 3">
+            <input type="text" id="user4" placeholder="Usuario 4">
+            <div id="confirmU"><button id="submit"> Confirmar </button></div>
+
+            <h4>DIMENSIONES DEL CARTÓN : </h4>
+            <div class="dim">
+            <button id="buttomsM" class="b3X3"> 3X3 </button>
+            <button id="buttomsM" class="b4x4"> 4X4 </button>
+            <button id="buttomsM" class="b5X5"> 5X5 </button>
+            </div>
+            <div id="confirm"><button id="PlayButtom">JUGAR</button></div>
+        </label> 
+        
+    </form>
+    </main>
+    <div class="Victory_container hidden">
+        <div class="ranking"> <h3> RANKING </h3> </div>
+    </div>
+
+    <!-- gameeeeee-->
+<div class="Second_container hidden">
+    <div class="info_juego "> 
+        <div><buttom id="Sortear_buttom">¡ SORTEAR NRO !</buttom></div>
+        <div id="nroSorteado"> </div>
+    </div>
+    <div id="round">RONDA: </div>
+    <div class="jugadores_container"> 
+        
+        <h4 class="title2"><strong>JUGADORES:</strong></h4>
+        <div class="btn_gamers "> 
+            <button class="butomsJ" id="J1"> <strong>J1</strong></button>
+            <button class="butomsJ" id="J2"> <strong>J2</strong></button>
+            <button class="butomsJ" id="J3"> <strong>J3</strong></button>
+            <button class="butomsJ" id="J4"> <strong>J4</strong></button>
+        </div>
+    <section>
+        <div class="table1 hidden"></div>
+        <div class="table2 hidden"></div>
+        <div class="table3 hidden"></div>
+        <div class="table4 hidden"></div>
+    </section>
+    
+</div>
+<footer class="reinicio hidden"><button id="reset">Reiniciar</button></footer>
+    <script src ="script.js"></script>
+</body>
+</html>
